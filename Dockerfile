@@ -6,7 +6,7 @@ ARG C7N_VERSION
 
 LABEL org.opencontainers.image.title="bdwyertech/c7n" \
       org.opencontainers.image.version=$C7N_VERSION \
-      org.opencontainers.image.version="For running Cloud Custodian ($C7N_VERSION) within a CI Environment" \
+      org.opencontainers.image.description="For running Cloud Custodian ($C7N_VERSION) within a CI Environment" \
       org.opencontainers.image.authors="Brian Dwyer <bdwyertech@github.com>" \
       org.opencontainers.image.source="https://github.com/bdwyertech/docker-c7n.git" \
       org.opencontainers.image.revision=$VCS_REF \
