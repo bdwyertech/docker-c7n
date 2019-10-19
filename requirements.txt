@@ -1,0 +1,33 @@
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+argcomplete==1.10.0
+attrs==19.3.0
+boto3==1.9.253
+botocore==1.12.253
+c7n==0.8.45.1
+certifi==2019.9.11
+docutils==0.15.2
+importlib-metadata==0.23
+jmespath==0.9.4
+jsonpatch==1.24
+jsonpointer==2.0
+jsonschema==3.1.1
+more-itertools==7.2.0
+pyrsistent==0.15.4
+python-dateutil==2.8.0 ; python_version >= '2.7'
+pyyaml==5.1.2
+s3transfer==0.2.1
+six==1.12.0
+tabulate==0.8.5
+urllib3==1.25.6 ; python_version >= '3.4'
+zipp==0.6.0
