@@ -27,6 +27,9 @@ RUN apk --no-cache add bash git libgit2 \
     && python -m pip install -r requirements.txt \
     && apk del .build-deps \
     && rm requirements.txt \
-    && rm -rf ~/.cache/pip
+    && rm -rf ~/.cache/pip \
+    && adduser custodian -S -h /home/custodian
 
+USER custodian
+WORKDIR /home/custodian
 ENTRYPOINT ["/bin/bash"]
