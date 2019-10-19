@@ -21,9 +21,11 @@ LABEL org.opencontainers.image.title="bdwyertech/c7n" \
 
 ADD requirements.txt .
 RUN apk --no-cache add bash git \
+    && apk add --no-cache --virtual .build-deps build-base libffi-dev libgit2-dev \
     && python -m pip install --upgrade pip \
     && python -m pip install --upgrade pipenv \
     && python -m pip install -r requirements.txt \
+    && apk del .build-deps \
     && rm requirements.txt \
     && rm -rf ~/.cache/pip
 
