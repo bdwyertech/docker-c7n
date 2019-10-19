@@ -2,6 +2,7 @@ FROM python:3.7-alpine
 
 ARG BUILD_DATE
 ARG VCS_REF
+ARG C7N_VERSION
 
 LABEL org.opencontainers.image.title="org-c7n" \
       org.opencontainers.image.authors="Brian Dwyer <bdwyertech@github.com>" \
