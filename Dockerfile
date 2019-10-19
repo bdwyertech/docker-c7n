@@ -20,7 +20,7 @@ LABEL org.opencontainers.image.title="bdwyertech/c7n" \
       org.label-schema.build-date=$BUILD_DATE
 
 ADD requirements.txt .
-RUN apk --no-cache add bash git libgit2 \
+RUN apk add --no-cache bash git libgit2 \
     && apk add --no-cache --virtual .build-deps build-base libffi-dev libgit2-dev \
     && python -m pip install --upgrade pip \
     && python -m pip install --upgrade pipenv \
