@@ -32,4 +32,5 @@ RUN apk --no-cache add bash git libgit2 \
 
 USER custodian
 WORKDIR /home/custodian
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/sh", "-c"]
+CMD ["bash"]
