@@ -9,7 +9,9 @@ python_version = "3.7"
 [packages]
 c7n = "*"
 c7n-org = "*"
+c7n-mailer = "*"
 c7n-policystream = "*"
+manheim-c7n-tools = "*"
 
 [dev-packages]
 pipenv-to-requirements = "*"
