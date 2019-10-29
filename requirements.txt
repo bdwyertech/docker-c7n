@@ -14,19 +14,19 @@ alabaster==0.7.12
 argcomplete==1.10.0
 attrs==19.3.0
 babel==2.7.0
-boto3==1.9.253
-botocore==1.12.253
+boto3==1.10.4
+botocore==1.13.4
 c7n-mailer==0.5.5
 c7n-org==0.5.5
 c7n-policystream==0.3.1
-c7n==0.8.45.1
+c7n==0.8.44.2
 certifi==2019.9.11
-cffi==1.13.0
+cffi==1.13.1
 chardet==3.0.4
 click==7.0
 colorama==0.4.1 ; sys_platform == 'win32'
 datadog==0.30.0
-decorator==4.4.0
+decorator==4.4.1
 docutils==0.14
 idna==2.8
 imagesize==1.1.0
@@ -46,7 +46,7 @@ pycparser==2.19
 pygit2==0.28.2
 pygments==2.4.2
 pyparsing==2.4.2
-pyrsistent==0.15.4
+pyrsistent==0.15.5
 python-dateutil==2.8.0 ; python_version >= '2.7'
 python-http-client==3.2.1
 pytz==2019.3
