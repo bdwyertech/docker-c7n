@@ -7,7 +7,7 @@ verify_ssl = true
 python_version = "3.7"
 
 [packages]
-c7n = "==0.8.44.2"
+c7n = {git = "https://github.com/kapilt/cloud-custodian",ref = "aws/bug/log-group",editable = true}
 c7n-org = "*"
 c7n-mailer = "*"
 c7n-policystream = "*"
