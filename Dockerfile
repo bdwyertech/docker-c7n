@@ -19,6 +19,8 @@ LABEL org.opencontainers.image.title="bdwyertech/c7n" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.build-date=$BUILD_DATE
 
+ENV PYTHONUNBUFFERED 1
+
 ADD requirements.txt .
 RUN apk add --no-cache bash git libgit2 \
     && apk add --no-cache --virtual .build-deps build-base libffi-dev libgit2-dev \
