@@ -8,3 +8,8 @@ if [ "$DOCKER_TAG" == 'latest' ]; then
 	docker tag "$IMAGE_NAME" "${DOCKER_REPO}:${C7N_VERSION}"
 	docker push "${DOCKER_REPO}:${C7N_VERSION}"
 fi
+
+DATETAG="$(date -u +'%Y-%m-%d')--$(git rev-parse --short HEAD)"
+
+docker tag "$IMAGE_NAME" "${DOCKER_REPO}:${DATETAG}"
+docker push "${DOCKER_REPO}:${DATETAG}"

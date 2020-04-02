@@ -4,14 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
 
 [packages]
-c7n = "==0.8.44.2"
+c7n = "==0.8.46.1"
 c7n-org = "*"
 c7n-mailer = "*"
 c7n-policystream = "*"
-manheim-c7n-tools = "*"
+# manheim-c7n-tools = "*"
 
 [dev-packages]
 pipenv-to-requirements = "*"
