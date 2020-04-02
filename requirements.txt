@@ -18,7 +18,6 @@ c7n-mailer==0.5.8
 c7n-org==0.5.7
 c7n-policystream==0.3.1
 c7n==0.8.46.1
-cached-property==1.5.1
 certifi==2019.11.28
 cffi==1.14.0
 chardet==3.0.4
@@ -36,7 +35,7 @@ ldap3==2.7
 markupsafe==1.1.1
 pyasn1==0.4.8
 pycparser==2.20
-pygit2==1.1.1
+pygit2==1.0.3
 pyrsistent==0.16.0
 python-dateutil==2.8.1
 python-http-client==3.2.7
