@@ -30,9 +30,9 @@ RUN apk add --no-cache bash git libgit2 \
     && apk del .build-deps \
     && rm requirements.txt \
     && rm -rf ~/.cache/pip \
-    && adduser custodian -S -h /home/custodian
+    && adduser c7n -S -h /home/c7n
 
-USER custodian
-WORKDIR /home/custodian
+USER c7n
+WORKDIR /home/c7n
 ENTRYPOINT ["/bin/sh", "-c"]
 CMD ["bash"]
