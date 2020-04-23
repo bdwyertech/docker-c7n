@@ -35,4 +35,4 @@ RUN apk add --no-cache bash git libgit2 \
 USER c7n
 WORKDIR /home/c7n
 ENTRYPOINT ["/bin/sh", "-c"]
-CMD ["bash"]
+CMD ["custodian"]
