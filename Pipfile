@@ -7,13 +7,13 @@ verify_ssl = true
 python_version = "3.8"
 
 [packages]
-c7n = "==0.8.46.1"
+c7n = "==0.9.1.0"
 c7n-org = "*"
 c7n-mailer = "*"
 c7n-policystream = "*"
 # manheim-c7n-tools = "*"
 # Issue with pygit2 1.1+
-pygit2 = "==1.0.3"
+# pygit2 = "==1.0.3"
 
 [dev-packages]
 pipenv-to-requirements = "*"

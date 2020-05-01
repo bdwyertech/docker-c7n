@@ -12,24 +12,23 @@
 
 argcomplete==1.11.1
 attrs==19.3.0
-boto3==1.12.44
-botocore==1.15.44
-c7n-mailer==0.5.8
-c7n-org==0.5.7
-c7n-policystream==0.3.1
-c7n==0.8.46.1
+boto3==1.12.47
+botocore==1.15.47
+c7n-mailer==0.6.0
+c7n-org==0.6.0
+c7n-policystream==0.4.0
+c7n==0.9.1
 certifi==2020.4.5.1
 cffi==1.14.0
 chardet==3.0.4
-click==7.1.1
-datadog==0.35.0
+click==7.1.2
+datadog==0.34.1
 decorator==4.4.2
 docutils==0.15.2
 idna==2.9
+importlib-metadata==1.6.0
 jinja2==2.11.2
 jmespath==0.9.5
-jsonpatch==1.25
-jsonpointer==2.0
 jsonschema==3.2.0
 ldap3==2.7
 markupsafe==1.1.1
@@ -42,11 +41,9 @@ python-http-client==3.2.7
 pyyaml==5.3.1
 redis==3.4.1
 requests==2.23.0
-ruamel.yaml.clib==0.2.0 ; platform_python_implementation == 'CPython' and python_version < '3.9'
-ruamel.yaml==0.16.10
 s3transfer==0.3.3
 sendgrid==6.2.2
-simplejson==3.17.0
 six==1.14.0
 tabulate==0.8.7
 urllib3==1.25.9 ; python_version != '3.4'
+zipp==3.1.0
