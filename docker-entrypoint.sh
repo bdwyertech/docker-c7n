@@ -8,7 +8,7 @@ case "$1" in
 	#
 	# Custodian
 	#
-	run,schema,report,version,validate) custodian "$@";;
+	run|schema|report|version|validate) custodian "$@";;
 	-*) custodian "$@";;
 	#
 	# Other
