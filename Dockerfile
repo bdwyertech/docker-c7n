@@ -32,7 +32,8 @@ RUN apk add --no-cache bash git libgit2 \
     && rm -rf ~/.cache/pip \
     && adduser c7n -S -h /home/c7n
 
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 USER c7n
 WORKDIR /home/c7n
-ENTRYPOINT ["/bin/sh", "-c"]
+ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["custodian"]
