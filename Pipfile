@@ -7,7 +7,7 @@ verify_ssl = true
 python_version = "3.8"
 
 [packages]
-c7n = "==0.9.4"
+c7n = "==0.9.6"
 c7n-org = "*"
 c7n-mailer = "*"
 c7n-policystream = "*"
