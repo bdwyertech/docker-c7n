@@ -19,7 +19,7 @@ c7n-org==0.6.12
 c7n-policystream==0.4.12
 c7n==0.9.13
 cached-property==1.5.2
-certifi==2021.5.30
+certifi==2022.12.7
 cffi==1.14.5
 chardet==4.0.0 ; python_version >= '2.7' and python_full_version < '3.0.0' or python_full_version >= '3.5.0' and python_version >= '2.7' and python_full_version < '3.0.0' or python_full_version >= '3.5.0'
 click==7.1.2 ; python_version >= '2.7' and python_full_version < '3.0.0' or python_full_version >= '3.5.0' and python_version >= '2.7' and python_full_version < '3.0.0' or python_full_version >= '3.5.0'
